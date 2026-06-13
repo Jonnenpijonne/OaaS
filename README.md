@@ -44,6 +44,7 @@ The goal is to make operations understandable, transferable, reviewable and evid
 | SLA / SLO thinking | `docs/SLA_AND_SLO_MODEL.md` |
 | Evidence model | `docs/EVIDENCE_MODEL.md` |
 | Public/private boundary | `docs/PUBLIC_PRIVATE_BOUNDARY.md` |
+| CI/CD trigger governance | `docs/CI_CD_TRIGGER_GOVERNANCE.md` |
 | Templates | `templates/` |
 | Example evidence | `examples/`, `evidence/` |
 
@@ -65,6 +66,7 @@ docs/
   SLA_AND_SLO_MODEL.md
   EVIDENCE_MODEL.md
   PUBLIC_PRIVATE_BOUNDARY.md
+  CI_CD_TRIGGER_GOVERNANCE.md
 
 templates/
   incident-report-template.md
@@ -84,6 +86,14 @@ evidence/
 ```
 
 `docs/SERVICE_CATALOG.md` and `examples/example-incident-summary.md` are kept as compatibility-friendly public-safe entries for validation flows that expect those conventional names.
+
+---
+
+## Governance note
+
+This fork also includes a small CI/CD governance adjustment: Maven and platform workflows were reviewed and scoped so documentation-only changes do not trigger unnecessary platform-level automation.
+
+See: [`docs/CI_CD_TRIGGER_GOVERNANCE.md`](docs/CI_CD_TRIGGER_GOVERNANCE.md)
 
 ---
 
