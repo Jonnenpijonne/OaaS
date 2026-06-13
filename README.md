@@ -36,11 +36,11 @@ The goal is to make operations understandable, transferable, reviewable and evid
 | Service model | `docs/SERVICE_MODEL.md` |
 | Operating model | `docs/OPERATING_MODEL.md` |
 | Responsibilities | `docs/RESPONSIBILITY_MATRIX.md` |
-| Incident response | `docs/INCIDENT_RESPONSE.md` |
+| Incident response | `docs/INCIDENT_RESPONSE.md`, `examples/example-incident-summary.md` |
 | Escalation | `docs/ESCALATION_MODEL.md` |
 | Change governance | `docs/CHANGE_GOVERNANCE.md` |
 | Backup and recovery | `docs/BACKUP_AND_RECOVERY.md` |
-| Service index | `docs/SERVICE_INDEX.md` |
+| Service index / catalog | `docs/SERVICE_INDEX.md`, `docs/SERVICE_CATALOG.md` |
 | SLA / SLO thinking | `docs/SLA_AND_SLO_MODEL.md` |
 | Evidence model | `docs/EVIDENCE_MODEL.md` |
 | Public/private boundary | `docs/PUBLIC_PRIVATE_BOUNDARY.md` |
@@ -61,6 +61,7 @@ docs/
   CHANGE_GOVERNANCE.md
   BACKUP_AND_RECOVERY.md
   SERVICE_INDEX.md
+  SERVICE_CATALOG.md
   SLA_AND_SLO_MODEL.md
   EVIDENCE_MODEL.md
   PUBLIC_PRIVATE_BOUNDARY.md
@@ -75,11 +76,14 @@ templates/
 examples/
   example-small-platform-operations.md
   example-service-review.md
+  example-incident-summary.md
 
 evidence/
   EXAMPLE_SERVICE_REVIEW.md
   EXAMPLE_RECOVERY_TEST.md
 ```
+
+`docs/SERVICE_CATALOG.md` and `examples/example-incident-summary.md` are kept as compatibility-friendly public-safe entries for validation flows that expect those conventional names.
 
 ---
 
