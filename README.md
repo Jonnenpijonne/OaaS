@@ -40,7 +40,7 @@ The goal is to make operations understandable, transferable, reviewable and evid
 | Escalation | `docs/ESCALATION_MODEL.md` |
 | Change governance | `docs/CHANGE_GOVERNANCE.md` |
 | Backup and recovery | `docs/BACKUP_AND_RECOVERY.md` |
-| Service catalog | `docs/SERVICE_CATALOG.md` |
+| Service index | `docs/SERVICE_INDEX.md` |
 | SLA / SLO thinking | `docs/SLA_AND_SLO_MODEL.md` |
 | Evidence model | `docs/EVIDENCE_MODEL.md` |
 | Public/private boundary | `docs/PUBLIC_PRIVATE_BOUNDARY.md` |
@@ -60,7 +60,7 @@ docs/
   ESCALATION_MODEL.md
   CHANGE_GOVERNANCE.md
   BACKUP_AND_RECOVERY.md
-  SERVICE_CATALOG.md
+  SERVICE_INDEX.md
   SLA_AND_SLO_MODEL.md
   EVIDENCE_MODEL.md
   PUBLIC_PRIVATE_BOUNDARY.md
@@ -75,7 +75,6 @@ templates/
 examples/
   example-small-platform-operations.md
   example-service-review.md
-  example-incident-summary.md
 
 evidence/
   EXAMPLE_SERVICE_REVIEW.md
